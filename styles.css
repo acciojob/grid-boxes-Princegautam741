@@ -1,1 +1,12 @@
-/*  your css code here. If applicable */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 100px); /* Adjust as needed */
+  gap: 10px; /* Adjust the gap between grid items */
+}
+
+.grid-item {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
